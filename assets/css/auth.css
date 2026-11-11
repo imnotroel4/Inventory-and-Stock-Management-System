@@ -1,0 +1,15 @@
+/* Login, Create account and Forgot password pages (builds on style.css) */
+.auth-card{width:100%;max-width:410px}
+.auth-card h1{font-size:1.7rem;font-weight:600;margin-bottom:.35rem}
+.auth-brand{display:inline-flex;align-items:center;gap:.6rem;font-weight:700;font-size:1.25rem;color:var(--ink);text-decoration:none;margin-bottom:1.5rem}
+.login-form{align-items:center;overflow-y:auto}
+.back-link{color:#fff;opacity:.8;text-decoration:none;font-size:.9rem}
+.back-link:hover{opacity:1;color:#fff}
+.pw-toggle{border:1px solid #e3e6f2;background:#fff;color:var(--muted);padding:.375rem .85rem;border-radius:0 12px 12px 0!important}
+.pw-toggle:hover,.pw-toggle:focus-visible{background:var(--accent-soft);color:var(--accent-d)}
+.input-group>.form-control{border-radius:12px 0 0 12px!important}
+.input-group>.form-control:focus{z-index:3}
+.invalid-feedback{font-size:.82rem}
+.strength{height:6px;background:#eceef6;border-radius:99px;overflow:hidden}
+.strength span{display:block;height:100%;width:0;border-radius:99px;background:var(--coral);transition:width .25s ease,background-color .25s ease}
+.strength span.s2{background:#f5b94a}.strength span.s3{background:#8fd3a5}.strength span.s4{background:#6cc68b}
